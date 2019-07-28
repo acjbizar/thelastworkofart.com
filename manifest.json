@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "version": "20190728",
+    "name": "The Last Work of Art",
+    "default_locale": "en",
+    "description": "The last work of art. After this, art no longer has a context and therefore carries no meaning. Concept 2006; website 2014.",
+    "author": "Alexander Christiaan Jacob",
+    "theme_color": "#ffffff",
+    "homepage_url": "https://thelastworkofart.com/",
+    "start_url": "https://thelastworkofart.com/",
+    "icons": [
+        {
+            "src": "https://thelastworkofart.com/apple-touch-icon-precomposed.png"
+        }
+    ],
+    "display": "fullscreen"
+}
