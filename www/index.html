@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html dir="ltr" lang="en">
 <head>
     <meta charset="utf-8">
@@ -84,14 +84,14 @@
 </main>
 <audio autoplay data-source="https://freesound.org/people/2887679652/sounds/135594/" id="thunder" loop preload="auto" src="135594__2887679652__lightning-strike-plus-thunder.mp3"></audio>
 <footer>What’s next? <a href="https://neoaestheticism.com/">Neo-æstheticism</a>.</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
 <script>
     "use strict";
 
+    var thunder = document.getElementById('thunder');
+
     window.onclick = function()
     {
-        $('#thunder')[0].play();
+        thunder.play();
     };
 
     window.onload = function()
