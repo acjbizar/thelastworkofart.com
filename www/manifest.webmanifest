@@ -1,0 +1,19 @@
+{
+  "$schema": "https:\/\/json.schemastore.org\/web-manifest-combined.json",
+  "lang": "en",
+  "dir": "ltr",
+  "name": "The Last Work of Art",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://thelastworkofart.com/apple-touch-icon-precomposed.png",
+      "sizes": "289x289",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "scope": "/",
+  "id": "https://thelastworkofart.com/",
+  "theme_color": "white",
+  "background_color": "black"
+}
